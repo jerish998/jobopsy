@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+ body{
+            background-color: white;
+}
+        .section-padding{
+            padding: 100px 0;
+        }
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+}
+
+/*
+        .carousel-item{
+            font-size: 40px;
+            height:100vh;
+            min-height: 300px;
+        }
+        .caurosel-caption h5{  
+            font-size: 45px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top:25px;
+        }
+        .caurosel-caption p{
+            width:60%;
+            margin: auto;
+            font-size: 20px;
+            line-height: 1.9;
+        }
+        .caurosel-inner:before{
+            content: '';
+            position:absolute;
+            width: 100%;
+            height:100%;
+            top:100%;
+            left:0;
+            background-image: rgba(0,0,0,0.7);
+            z-index:1;
+        }
+*/
+ .navbar-nav.navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+
+
+        .w-100{
+            height:100vh;
+        }
+        .btn{
+            color: white;
+        }
+        .services .cardbody i{
+          font-size: 50px;
+        }
+        .team .cardbody i{
+          font-size:20px;
+        }
+        .portfolio .card{
+          box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+        }
+        .team .card{
+          box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+        }
+        .services .card{
+          box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+        }
+/*HOME*/
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+.home .img{
+    flex: 1 1 100px;
+}
+.home .img img{
+    width: 110%;
+}
+.home .content{
+    flex: 1 1 400px;
+}
+.content h3{
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    color: green;
+    font-weight: bold;
+}
+.content h3 span{
+    font-size: 40px;
+}
+.content p{
+    margin-left: 70px;
+    color: green;
+}
+
+.content #shopnow{
+    color: green;
+    margin-left: 70px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid green;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#shopnow{
+ border-radius: 5px;
+ color: green;
+    border: 2px solid green;
+    cursor: pointer;
+}
+#shopnow:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+/* contact */
+#contact{
+    margin-top: 50px;
+}
+#contact h1{
+    color: darkcyan;
+    text-shadow: 0px 0px 1px green;
+}
+#contact .card{
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: darkgreen;
+    
+    letter-spacing: 3px;
+}
+#contact .card h6{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: darkgreen;
+}
+#messagebtn button{
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid green;
+    color: darkgreen;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#messagebtn button:hover{
+    background-color: green;
+    color: white;
+}
+/* contact */
+
+/*TEAM*/
+.services .socail-links a {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+ .socail-links a i:hover{
+    color: green;
+}
+
+
+        /* footer */
+#footer{
+    padding: 0 0 30px 0;
+    color: #d0d0d0;
+    font-size: 14px;
+    background-color: darkgreen;
+}
+#footer .footer-top{
+    padding: 60px 0 30px;
+    background-color:darkgreen;
+    color: white;
+}
+#footer .footer-top .footer-contact h3{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin:  0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 12px;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+    padding-right: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child{
+    padding: 0;
+}
+#footer .footer-top .footer-links ul li a{
+    color: white;
+    line-height: 2;
+}
+#footer .footer-top .socail-links a{
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    padding-right: 4px;
+    border-radius: 50px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s ease;
+}
+#footer .copyright{
+    text-align: center;
+    float: left; 
+}
+#footer .credits{
+    float: right;
+    text-align: center;
+}
+/* footer */
+
